@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
 import Paragraph from './components/paragraph/paragraph.jsx'
+import Button from './components/button/button.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Paragraph />
+
+      <Button />
     </>
   )
 }
